@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Booking</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div><img src="luxury-hotel-logo-vector-27808174.jpg" height="70px" width="70px" ></div>
+            <span>About</span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Room.html">Room</a></li>
+            <li><a href="Feauture.html">Feature</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="admin_page.php">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="Swinging in the Jungle.jpeg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-user-line"></i></span>
+            <h4>Strong Team</h4>
+            <p>
+              Unlocking Hospitality Excellence And Ensures Your Perfect Stay
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="THAILAND.jpeg " alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-calendar-check-line"></i></span>
+            <h4>Luxury Room</h4>
+            <p>Experience Unrivaled Luxury at Our Exquisite Luxury Rooms</p>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">ABOUT US</p>
+          <h2 class="section__header">Discover Our Underground</h2>
+          <p class="section__description">
+            Welcome to a hidden realm of extraordinary accommodations where
+            luxury, comfort, and adventure converge. Our underground hotels
+            offer an unparalleled escape from the ordinary, inviting you to
+            explore a subterranean world of wonders.
+          </p>
+          <button class="btn" id="bookNowButton">Book Now</button>
+
+            <script>
+                // JavaScript to handle the button click event
+                document.getElementById("bookNowButton").addEventListener("click", function() {
+                    // Replace 'your-bookable-page-url' with the actual URL of your bookable page
+                    window.location.href = 'https://www.booking.com/hotel/al/olive-garden.it.html?aid=356980&label=gog235jc-1DCAsoBkIMb2xpdmUtZ2FyZGVuSDNYA2gGiAEBmAEUuAEXyAEM2AED6AEBiAIBqAIDuALi7rGtBsACAdICJGUyNjQ3MTc1LTBlN2EtNDNmYi1hMDFlLTZmZGMzYmFhNmQzNNgCBOACAQ&sid=27ef6032918012ac51b577eb5a4ee534&dist=0&keep_landing=1&sb_price_type=total&type=total&';
+                });
+            </script>
+        </div>
+      </div>
+    </section>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <script src="main.js"></script>

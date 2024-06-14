@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Booking</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div><img src="luxury-hotel-logo-vector-27808174.jpg" height="70px" width="70px" ></div>
+            <span>Room</span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Room.html">Room</a></li>
+          <li><a href="Feature.html">Feature</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="admin_page.php">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="room__container" id="room">
+        <p class="section__subheader">ROOMS</p>
+        <h2 class="section__header">Hand Picked Rooms</h2>
+        <div class="room__grid">
+          <div class="room__card">
+            <img src="381994111.jpg" alt="room" />
+            <div class="room__card__details">
+              <div>
+                <h4>Deluxe Suite</h4>
+                <p>Well-appointed rooms designed for guests who desire a more.</p>
+              </div>
+              <h3>$399<span>/night</span></h3>
+            </div>
+          </div>
+          <div class="room__card">
+            <img src="Immagine WhatsApp 2024-01-21 ore 02.53.49_9234cf5a.jpg" alt="room" />
+            <div class="room__card__details">
+              <div>
+                <h4>Family Suite</h4>
+                <p>Consist of multiple rooms and a common living area.</p>
+              </div>
+              <h3>$599<span>/night</span></h3>
+            </div>
+          </div>
+          <div class="room__card">
+            <img src="472164531.jpg" alt="room" />
+            <div class="room__card__details">
+              <div>
+                <h4>Luxury Double Room</h4>
+                <p>
+                  Top-tier accommodation for loving couples 
+                </p>
+              </div>
+              <h3>$799<span>/night</span></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <section class="intro">
+        <div class="section__container intro__container">
+          <div class="intro__cotent">
+            <p class="section__subheader">INTRO VIDEO</p>
+            <h2 class="section__header">Meet With Our Luxury Place</h2>
+            <p class="section__description">
+              Whether you're seeking a cozy and exclusive hideaway or an immersive
+              journey beneath the surface, Hotel Luxury promises to be an
+              unforgettable stay, where the depths of comfort and excitement await
+              your arrival.
+            </p>
+            <button class="btn" id="bookNowButton">Book Now</button>
+
+            <script>
+                // JavaScript to handle the button click event
+                document.getElementById("bookNowButton").addEventListener("click", function() {
+                    // Replace 'your-bookable-page-url' with the actual URL of your bookable page
+                    window.location.href = 'https://www.booking.com/hotel/al/olive-garden.it.html?aid=356980&label=gog235jc-1DCAsoBkIMb2xpdmUtZ2FyZGVuSDNYA2gGiAEBmAEUuAEXyAEM2AED6AEBiAIBqAIDuALi7rGtBsACAdICJGUyNjQ3MTc1LTBlN2EtNDNmYi1hMDFlLTZmZGMzYmFhNmQzNNgCBOACAQ&sid=27ef6032918012ac51b577eb5a4ee534&dist=0&keep_landing=1&sb_price_type=total&type=total&';
+                });
+            </script>
+          </div>
+          <div class="intro__video">
+            <video src="production_id_4069480 (2160p).mp4" autoplay muted loop></video>
+          </div>
+        </div>
+      </section>
+  
